@@ -8,6 +8,6 @@ public class TestExer_01 {
 
         cj.informarValor();
         cj.mostrarVetor();
-        cj.ordenarVetor();
+
     }
 }

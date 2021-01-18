@@ -26,26 +26,6 @@ public class ConjuntoValores {
         }
     }
 
-    //Metodo da bolha - BoobleSort
-    public void ordenarVetor (){
-        for (int ultEle = conjVal.length - 1; ultEle > 0; ultEle--){
-            for(int i = 0; i < ultEle; i++){
-                if (conjVal[i] > conjVal[i+1]){
-                    trocar (conjVal, i, i+1);
-                }
-
-            }
-        }
-        System.out.println("--- Mostrando Vetor Ordenado de forma Crescente ---");
-        mostrarVetor();
-    }
-
-    public void trocar(int[] conjVal, int i, int j) {
-        int aux = conjVal[i];
-        conjVal[i]  = conjVal[j];
-        conjVal [j] = aux;
-    }
-
     public int[] getConjVal() {
         return conjVal;
     }
